@@ -56,7 +56,8 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 # Mix = nr_letters + nr_symbols + nr_numbers
 # password = ""
 
-# for R in range(1, Mix + 1):
+# for T in range(1, Mix + 1):
+#     R = random.randint(1, 3)
 #     if R == 1:
 #         random_letters = random.randint(0, 51)
 #         password_letters = letters[random_letters]
@@ -77,19 +78,19 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 
 # Hard version from my teacher
 
-# password= []
+# password_list = []
 
 # for L in range(1, nr_letters + 1):
 #     random.letters = random.choice(letters)
-#     password+= random.letters
+#     password_list += random.letters
     
 # for S in range(1, nr_symbols + 1):
 #     random.symbols = random.choice(symbols)
-#     password+= random.symbols
+#     password_list += random.symbols
 
 # for N in range(1, nr_numbers + 1):
 #     random.numbers = random.choice(numbers)
-#     password+= random.numbers
+#     password_list += random.numbers
 
 # random.shuffle(password_list)
 # password = ""
